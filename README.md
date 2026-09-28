@@ -1,6 +1,7 @@
 # dabbli-legal
 
-Public landing page, privacy, terms and support information for Dabbli.
+Public landing page, privacy, terms, support and account-deletion information
+for Dabbli.
 
 The repository is the reviewed source for the public legal site. Production is
 served as static, unauthenticated HTTPS pages through Cloudflare; GitHub Pages
@@ -13,6 +14,7 @@ English and Dutch pages are maintained together:
 - `privacy.html` / `privacy-nl.html`
 - `terms.html` / `terms-nl.html`
 - `support.html` / `support-nl.html`
+- `delete-account.html` / `delete-account-nl.html`
 
 Before publishing an update, confirm all local links resolve, both language
 versions describe the same behavior, and the public URLs still match the app

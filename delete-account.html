@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Request deletion of a Dabbli parent account and understand what happens to associated data."
+    />
+    <title>Delete your account — Dabbli</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <a class="brand" href="index.html">Dabbli</a>
+      <nav aria-label="Main navigation">
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="support.html">Support</a>
+        <a aria-current="page" href="delete-account.html">Delete account</a>
+        <a class="language" href="delete-account-nl.html" lang="nl"
+          >Nederlands</a
+        >
+      </nav>
+    </header>
+    <main>
+      <p class="eyebrow">Parent account deletion</p>
+      <h1>Delete your Dabbli parent account</h1>
+      <p class="lede">
+        A parent or guardian can request deletion in the Dabbli app or by
+        email. You do not need to reinstall the app to make an email request.
+      </p>
+
+      <div class="notice">
+        <strong>Do not send child work or security secrets.</strong> Never
+        attach a child’s answers, photos or audio recordings. Do not send a
+        password, one-time code, Parent PIN, API key or recovery information.
+      </div>
+
+      <h2>Delete your account in the app</h2>
+      <ol>
+        <li>Open Dabbli and enter Parent Mode.</li>
+        <li>Open Parent Settings and choose <strong>Delete account</strong>.</li>
+        <li>
+          Follow the prompts and confirm the request with a fresh code sent to
+          the registered parent email address. An internet connection is
+          required.
+        </li>
+      </ol>
+      <p>
+        After the server accepts the request, Dabbli deletes the parent account
+        and begins the protected local-data wipe on that device. If a response
+        is interrupted, the app can safely resume the accepted deletion.
+      </p>
+
+      <h2>Request deletion without the app</h2>
+      <p>
+        Email
+        <a
+          href="mailto:support@dabbli.app?subject=Delete%20my%20Dabbli%20parent%20account"
+          >support@dabbli.app</a
+        >
+        from the registered parent email address. Use the subject
+        <strong>Delete my Dabbli parent account</strong> and state that you no
+        longer have access to the in-app deletion control. Dabbli may verify
+        the request through the registered parent email before deleting the
+        account.
+      </p>
+
+      <h2>Backend data that is deleted</h2>
+      <ul>
+        <li>The registered parent email address and parent account identifier.</li>
+        <li>Active sessions and account authentication records.</li>
+        <li>
+          Registered optional-analytics identifiers and linkable raw product
+          events associated with the account.
+        </li>
+        <li>
+          Other backend parent-account linkage that is no longer required for
+          the limited retention described below.
+        </li>
+      </ul>
+
+      <h2>Child and family data on the device</h2>
+      <p>
+        A child’s nickname, selected age, challenge history, written answers,
+        photos, audio recordings, reviews, scores and points stay on the
+        family’s device. Dabbli’s servers cannot remotely read or erase this
+        local-only data.
+      </p>
+      <p>
+        In-app account deletion starts the protected local wipe on the current
+        device after the backend deletion is accepted. If deletion is requested
+        by email, remove the app or use its local family-data deletion control
+        on every device where local family data remains.
+      </p>
+
+      <h2>Limited temporary retention</h2>
+      <ul>
+        <li>
+          Deleted backend data may remain in isolated encrypted backups for up
+          to 30 days before those backups expire.
+        </li>
+        <li>
+          A minimal deletion-replay record may be retained for up to 35 days so
+          an interrupted request can return the existing safe result. It
+          contains no parent email address or child information.
+        </li>
+        <li>
+          Correspondence used to process the request is normally deleted within
+          90 days after resolution, unless a bounded legal or security reason
+          requires longer retention.
+        </li>
+      </ul>
+      <p>
+        See the <a href="privacy.html">Dabbli Privacy Notice</a> for the full
+        description of data practices and rights.
+      </p>
+
+      <p class="meta">Account-deletion information updated 29 September 2026.</p>
+    </main>
+    <footer>
+      Dabbli is operated by Tridip Choudhury ·
+      <a href="privacy.html">Privacy</a> ·
+      <a href="support.html">Support</a>
+    </footer>
+  </body>
+</html>
